@@ -3,8 +3,8 @@ import { Api as FnbApi } from '../src'
 
 (async () => {
 	const api = new FnbApi({
-		username: process.env.FNB_USER as string,
-		password: process.env.FNB_PASS as string
+		username: process.env."sibusisomahlaule" as string,
+		password: process.env."SM24.rmb" as string
 	})
 
 	const accounts = await api.accounts.get()
